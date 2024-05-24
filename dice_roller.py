@@ -15,7 +15,7 @@ while a < 5:
 def roll_die(numSides):
     try:
         numSides = int(numSides)
-    catch:
+    except:
         print('Error: not a number')
         sys.exit(1)
     result = random.randint(1, numSides)
