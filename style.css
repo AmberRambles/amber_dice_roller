@@ -1,0 +1,21 @@
+html{
+    font-family: sans-serif;
+    font-size: 26px;
+    color: green;
+    background-color: black;
+    display: flex;
+    flex-direction: vertical;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+button{
+    height: 40px;
+    width: 200px;
+    font-size: 1rem;
+}
+
+output{
+    font-size: 2rem;
+}
